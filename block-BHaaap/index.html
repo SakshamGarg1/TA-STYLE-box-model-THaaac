@@ -1,0 +1,66 @@
+<!---
+
+### Create a web page with the following characteristics:
+
+1. Heading element(h1) should be at the top of the page.
+2. After the heading, there should be a paragraph.
+3. After the paragraph add an image having all the corner rounded.
+4. Below the image, there should be a circle with red background.
+5. At the bottom of the page, there must be a footer containing few links.
+6. The H1 has 1px red solid borders, background color #D18C1D, and 10px of space between the content and the border (padding)
+7. The paragraph is contained in 600px by 400px boxes with 2px black dotted borders and background color #D1D631
+8. Links have a 3px blue dashed border on the bottom only and background color #A1A1A1
+
+- Using CSS resets is necessary.
+- Use semantic tags and keep the nesting and indentation proper.
+
+---><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>assignmentOne</title>
+</head>
+<body>
+    <h1>LORM</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea assumenda non, laboriosam porro ipsum odit quia temporibus ratione, repellendus optio animi nostrum illum. Nisi dolore inventore mollitia provident tempora corrupti.
+    Aliquam nemo, obcaecati quia molestias ab officiis soluta ducimus! Asperiores voluptas, dolorum non quibusdam amet dolore! Officiis perferendis facere accusantium cumque sed hic modi itaque inventore, quas dignissimos saepe illo.</p>
+    <img src="3683.jpg.webp" alt="cat" width="200px" height="200px" >
+    <div class="circle" ></div>
+    <footer>
+        <a href="">Facebook</a>
+        <a href="">Instagram</a>
+        <a href="">Linkdin</a>
+    </footer>
+</body>
+<style>
+    img{
+        border-radius: 5px;
+        border: 2px solid black;
+    }
+    .circle{
+        background-color: red;
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+        margin-left: 50px;
+    }
+    h1{
+        border: 1px solid red;
+        background-color: #D18C1D;
+        padding-bottom: 10px;
+        display: inline;
+        margin: 30%;
+    }
+    body{
+        height: 600px;
+        width: 400px;
+        border: 2px dotted black;
+    }
+    a{
+        border:   3px blue dashed ;
+        background-color: #A1A1A1;
+    }
+</style>
+</html>
