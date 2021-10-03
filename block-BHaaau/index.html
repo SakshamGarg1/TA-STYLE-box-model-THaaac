@@ -1,0 +1,172 @@
+<!---
+### Create a page according to the layout shown below
+
+![Box Model Exercise 6](https://raw.githubusercontent.com/suraj122/AC-STYLE-images/master/box-model/ex-6.png)
+
+#### Problems for exercise 2 in the layout
+
+- Each parent container has width of 600px and border of 1px;
+- Each children box has width 180px and height 100px as well as margin of 10px;
+- Each child box which is having border has border-width 1px.
+- Note in the first container the boxes do not have any border.
+
+- Using CSS resets is necessary.
+- Use semantic tags and keep the nesting and indentation proper.
+--->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A3</title>
+</head>
+<body>
+    <div class="two-background"><div class="one-background"><div class="one"></div></div></div>
+    <div class="two" > 
+        <div class="b2"></div>
+        <div class="b3" ></div>
+        <div class="b4" ></div>
+    </div>
+    <div class="tborder">
+    <div class="three" > 
+        <div class="b5"></div>
+        <div class="b6" ></div>
+    </div>
+        <div class="b7" ></div>
+    </div>
+    <div class="four" > 
+        <div class="b8"></div>
+        <div class="b9" ></div>
+        <div class="b10" ></div>
+    </div>
+</body>
+<style>
+    .two-background{
+        border: 20px solid rgb(187, 77, 77); 
+        margin-right: 45.5% ;
+
+
+    }
+    .one-background{
+        border: 5px solid rgb(0, 0, 0); 
+        
+    }
+    .one{
+        width: 600px;
+        height: 600px;
+        background-color: rgb(71, 226, 66);
+        border: 20px solid rgb(65, 188, 192); 
+        color: brown;
+    }
+    .two{
+        display: flex;
+        border: 1px solid black;
+        margin-top: 5px;
+        margin-right: 51%;
+    }
+    .b2{
+        background-color: rgb(126, 122, 122);
+        height: 100px;
+        width: 180px;
+        
+        margin: 10px;
+
+    }
+    .b3{
+        background-color: rgb(126, 122, 122);
+        height: 100px;
+        width: 180px;
+    
+        margin: 10px;
+
+    }
+    .b4{
+        background-color: rgb(126, 122, 122);
+        height: 100px;
+        width: 180px;
+    
+        margin: 10px;
+    }
+    .three{
+        display: flex;
+       
+    }
+    .b4{
+        background-color: rgb(126, 122, 122);
+        height: 100px;
+        width: 180px;
+    
+        margin: 10px;
+
+    }.b5{
+        background-color: rgb(126, 122, 122);
+        border: 1px solid black;
+
+        height: 100px;
+        width: 180px;
+    
+        margin: 10px;
+
+    }.b6{
+        background-color: rgb(126, 122, 122);
+        border: 1px solid black;
+
+        height: 100px;
+        width: 180px;
+    
+        margin: 10px;
+
+    }
+    .b7{
+        background-color: rgb(126, 122, 122);
+        border: 1px solid black;
+
+        height: 100px;
+        width: 180px;
+    
+        margin: 10px;
+
+    }
+    .tborder{
+        border: 1px solid black;
+        margin-top: 5px;
+        margin-right: 51%;
+        }
+     .four{
+        display: flex;
+        border: 1px solid black;
+        margin-top: 5px;
+        margin-right: 51%;
+    }
+    .b8{
+        background-color: rgb(126, 122, 122);
+        border: 1px solid black;
+
+        height: 100px;
+        width: 180px;
+        
+        margin: 10px;
+
+    }
+    .b9{
+        background-color: rgb(126, 122, 122);
+        border: 1px solid black;
+
+        height: 100px;
+        width: 180px;
+    
+        margin: 10px;
+
+    }
+    .b10{
+        background-color: rgb(126, 122, 122);
+        border: 1px solid black;
+
+        height: 100px;
+        width: 180px;
+    
+        margin: 10px;
+    }
+</style>
+</html>
